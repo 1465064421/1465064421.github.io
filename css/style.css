@@ -6,9 +6,7 @@
   src: local('Open Sans Regular'), local('OpenSans-Regular'), url(../fonts/opensans.woff) format('woff');
 }
 
-*{
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-}
+
 .pace {
 	-webkit-pointer-events: none;
 	pointer-events: none;
@@ -845,7 +843,7 @@ span.sb-caret { /* Caret Down */
 #hero p {
 	color: #333;
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	display: inline-block;
 }
 @media (max-width:1024px) {
@@ -2937,7 +2935,7 @@ button.send{
   height: 400px;
 }
 .map-cover {
-	background: rgba(19,19,19,0.7);
+	background: rgba(19,19,19,0.1);
 	width: 100%;
 	z-index: 99;
 	height: 400px;
@@ -2954,6 +2952,7 @@ button.send{
 	width: 90px;
 	margin-left: -75px;
 	margin-top: -95px
+	opacity:0.4;
 }
 
 /* *******************************************************
